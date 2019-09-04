@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 
 class AddFolder extends React.Component {
   state = {
+    name: "",
     error: null,
     hasError: false
   };
@@ -48,5 +49,8 @@ class AddFolder extends React.Component {
     );
   }
 }
+AddFolder.propTypes = {
+  name: PropTypes.string.isRequired
+};
 
 export default AddFolder;
