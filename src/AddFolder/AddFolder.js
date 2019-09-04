@@ -2,6 +2,7 @@ import React from "react";
 import "./AddFolder.css";
 import ValidationError from "../ValidationError/ValidationError";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PropTypes from "prop-types";
 
 class AddFolder extends React.Component {
   state = {
